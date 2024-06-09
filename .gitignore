@@ -1,0 +1,98 @@
+# Ignore all dotfiles...
+.*
+
+# Ignore all pyc file
+*.pyc
+
+# except for .gitignore and .gitkeep
+!.gitignore
+!.gitkeep
+
+whoosh_index/*
+!whoosh_index/README
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Static files
+/static/
+
+# Prevent uploading of .env files
+.env
+
+# Ignore all the media folder
+media/*
+
+# Ignore the compiled and cache files
+*.mo
+*.pot
+
+# Whoosh index directory
+whoosh_index/
+
+# Node.js files
+node_modules/
+
+# Ignoring IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore all instance specific files
+instance/
+config/settings/local.py
+
+# Virtual environment
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Static files
+/static/
+
+# Prevent uploading of .env files
+.env
+
+# Ignore all the media folder
+media/*
+
+# Ignore the compiled and cache files
+*.mo
+*.pot
+
+# Whoosh index directory
+whoosh_index/
+
+# Node.js files
+node_modules/
+
+# Ignoring IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore all instance specific files
+instance/
+config/settings/local.py
+
+# Virtual environment
+env/
+venv/
+ENV/
+
